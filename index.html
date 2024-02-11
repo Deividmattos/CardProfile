@@ -3,34 +3,45 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
-
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Figtree:wght@600;800&family=Kumbh+Sans:wght@400;700&family=Lexend+Deca:wght@400;700&family=Outfit:wght@300;400;600&family=Red+Hat+Display:wght@500;700;800&family=Roboto:ital@1&display=swap" rel="stylesheet">
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
   <link rel="stylesheet" href="css/global.css">
   <link rel="stylesheet" href="css/responsive.css">
   <title>Frontend Mentor | Profile card component</title>
 
   <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
+
 </head>
 <body>
-  Victor Crest
-  26
-  London
+    <div class="car">
+      <img src="images/bg-pattern-card.svg" alt="">
+      
+      <div class="author">
+         <div class="author_img_victor">
+            <img src="images/image-victor.jpg" alt="author">
+         </div>
 
-  80K
-  Followers
+        <p class="name_author">Victor Crest<span>26</span></p>
+        <p class="city">London</p>
+      </div>
 
-  803K
-  Likes
-
-  1.4K
-  Photos
-  <div class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Your Name Here</a>.
-  </div>
+ 
+      <div class="rede">
+         <div class="followers">
+            <p>80K</p>
+            <p class="status">Followers</p>
+         </div>
+         <div class="likes">
+             <p>803K</p>
+             <p class="status">Likes</p>
+         </div>
+         <div class="photos">
+             <p>1.4K</p>
+             <p class="status"> Photos</p>
+         </div>
+      </div>
+    </div>
 </body>
 </html>
